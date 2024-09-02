@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="counting letters and bytes. including spaces, excluding line-breaks, excluding-spaces">
+  <title>Letter Counter / Character Counter</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <h1>Letter Counter</h1>
+  <textarea id="inputText" placeholder="Enter your text here..." oninput="updateCounts()"></textarea>
+  <div class="result">
+    <div>Total letters (including spaces): <span id="lettersWithSpaces">0</span></div>
+    <div>Total letters (excluding line-breaks): <span id="letterWithoutLineBreaks">0</span></div>
+    <div>Total letters (excluding spaces): <span id="lettersWithoutSpaces">0</span></div>
+    <div>Total words: <span id="wordCount">0</span></div>
+    <div>Total lines: <span id="lineCount">0</span></div>
+  </div>
+
+  <div class="result">
+    <div>Total bytes (including spaces): <span id="bytesWithSpaces">0</span>bytes</div>
+    <div>Total bytes (excluding line-breaks): <span id="bytesWithoutLineBreaks">0</span>bytes</div>
+    <div>Total bytes (excluding spaces): <span id="bytesWithoutSpaces">0</span>bytes</div>
+  </div>
+
+  <div class="explain">
+    <ul>
+        <li>Total letters (including spaces): Total letters including spaces and line-breaks</li>
+        <li>Total letters (excluding line-breaks): Total letters including spaces and excluding line-breaks</li>
+        <li>Total letters (excluding spaces): Total letters excluding spaces and line-breaks</li>
+    </ul>
+  </div>
+
+  <div class="developer">
+    developer: Taehun Kim. <a href="https://github.com/minchoCoin" target="_blank">my github</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
