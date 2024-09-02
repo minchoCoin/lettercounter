@@ -1,6 +1,10 @@
 # lettercounter
 letter counter website
 
+# lettercounter pages link
+- https://lettercounter.podonamu.click/
+- https://minchocoin.github.io/lettercounter/
+
 # features
 - letter counting and bytes counting
   - Total letters (including spaces): Total letters including spaces and line-breaks
